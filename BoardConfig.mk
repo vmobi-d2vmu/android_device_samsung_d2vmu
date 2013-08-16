@@ -34,7 +34,7 @@ TARGET_KERNEL_SOURCE    := kernel/samsung/d2
 TARGET_KERNEL_CONFIG    := cyanogen_d2vmu_defconfig
 BOARD_KERNEL_CMDLINE        := androidboot.hardware=qcom user_debug=31
 BOARD_KERNEL_BASE           := 0x80200000
-BOARD_FORCE_RAMDISK_ADDRESS := 0x81500000
+BOARD_MKBOOTIMG_ARGS        := 0x81500000
 BOARD_KERNEL_PAGESIZE       := 2048
 
 TARGET_USERIMAGES_USE_EXT4 := true
