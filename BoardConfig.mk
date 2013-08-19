@@ -31,3 +31,4 @@ TARGET_OTA_ASSERT_DEVICE := d2vmu
 
 # Kernel
 TARGET_KERNEL_CONFIG    := cyanogen_d2vmu_defconfig
+TARGET_KERNEL_SOURCE    := kernel/samsung/d2vmu
