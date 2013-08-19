@@ -24,10 +24,10 @@
 -include device/samsung/d2-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/samsung/d2spr/BoardConfigVendor.mk
+-include vendor/samsung/d2vmu/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := d2spr
+TARGET_OTA_ASSERT_DEVICE := d2vmu
 
 # Kernel
-TARGET_KERNEL_CONFIG    := cyanogen_d2spr_defconfig
+TARGET_KERNEL_CONFIG    := cyanogen_d2vmu_defconfig
